@@ -79,6 +79,7 @@ TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+BOARD_KERNEL_CMDLINE += pm.sleep_mode=1
 
 # Malloc
 MALLOC_SVELTE := true
