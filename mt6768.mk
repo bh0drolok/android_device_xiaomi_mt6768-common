@@ -255,6 +255,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.example
 
 PRODUCT_PACKAGES += \
+    libmtkperf_client_vendor \
+    libmtkperf_client
+
+PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
     android.hardware.power-V2-ndk_platform.vendor \
     android.hardware.power@1.3.vendor
