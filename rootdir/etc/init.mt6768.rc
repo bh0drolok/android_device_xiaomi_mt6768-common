@@ -1226,3 +1226,8 @@ service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
 on property:odm.audio.typec.status=*
     setprop vendor.audio.typec.status ${odm.audio.typec.status}
 
+
+# Restrict access on this node
+on property:sys.boot_completed=1
+    # Only owner can acces this node
+    chmod 440 /proc/net/unix
