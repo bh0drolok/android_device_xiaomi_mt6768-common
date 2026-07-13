@@ -799,19 +799,10 @@ vendor/lib64/libformatter.so
 
 # IMS
 vendor/bin/hw/vtservice_hidl
-vendor/bin/epdg_wod
 vendor/bin/mtk_pkm_service
 vendor/bin/muxreport
-vendor/bin/volte_imsm_93
-vendor/bin/volte_md_status
-vendor/bin/volte_stack
 vendor/bin/wfca
 vendor/etc/init/dmc_core.rc
-vendor/etc/init/init.volte_imcb.rc
-vendor/etc/init/init.volte_imsm_93.rc
-vendor/etc/init/init.volte_md_status.rc
-vendor/etc/init/init.volte_stack.rc
-vendor/etc/init/init.volte_ua.rc
 vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
@@ -821,7 +812,6 @@ vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
-vendor/lib/libipsec_ims_shr.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
@@ -829,8 +819,6 @@ vendor/lib/libmtklimiter_vendor.so
 vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libpkm.so
 vendor/lib/libtranslator_utils.so
-vendor/lib/libvolte_core_shr.so
-vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
@@ -838,7 +826,6 @@ vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
-vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
 vendor/lib64/libmtktinyxml.so
@@ -1004,7 +991,6 @@ vendor/lib64/libtranslator_utils.so
 vendor/lib64/libtrm.so
 vendor/lib64/libutinterface_md.so
 vendor/lib64/libvia-ril.so
-vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
