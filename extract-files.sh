@@ -80,9 +80,6 @@ function blob_fixup {
         vendor/lib64/hw/fingerprint.mt6768.so)
             sed -i 's|\xc0\x03_\xd6\x00\x00\x00\x00\xff\x03\x01\xd1\xfd{\x02\xa9|\xc0\x03_\xd6\x00\x00\x00\x00\xc0\x03_\xd6\xfd{\x02\xa9|g' "${2}"
             ;;
-	vendor/lib64/libmi_watermark.so)
-            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
-            ;;
     esac
 }
 
