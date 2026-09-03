@@ -151,12 +151,16 @@ persist.vendor.vilte_support=1
 persist.vendor.viwifi_support=1
 
 # LMK
-ro.lmk.psi_complete_stall_ms=35
-ro.lmk.swap_free_low_percentage=10
-ro.lmk.psi_partial_stall_ms=35
-ro.lmk.thrashing_limit=10
-ro.lmk.thrashing_limit_decay=2
+ro.lmk.use_psi=false
+ro.config.low_ram=false
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_heaviest_task=false
 ro.lmk.kill_timeout_ms=100
+ro.lmk.thrashing_limit=100
+ro.lmk.thrashing_limit_decay=50
+sys.lmk.minfree_levels=18432:0,23040:100,27648:200,32256:250,55296:900,80640:950
 
 # MIUI
 sys.fp.miui.token=0
